@@ -5,6 +5,8 @@ function newGradient() {
   return $("body").css("background", randomGradient);
 }
 
+// thanks to Juan Martinez for providing json gist
+
 function getQuote() {
 	$.getJSON("https://gist.githubusercontent.com/jbmartinez/6982650ade1ee5e9527f/raw/e7099c184abec96b9d3c63ecb1fa44170eaf5299/quotes.json", function(json){
   		var ranNum = Math.floor(Math.random() * json.length);
