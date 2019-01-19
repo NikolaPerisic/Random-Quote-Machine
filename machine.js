@@ -39,9 +39,3 @@ $(document).ready(function() {
 
     $("#twitterBtn").on("click", tweetQuote);
 });
-
-
-
-
-
-

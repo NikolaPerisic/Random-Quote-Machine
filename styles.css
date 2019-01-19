@@ -1,86 +1,97 @@
-html {
-	height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-  	height: 100%;
-  	font-family: 'Playfair Display', serif;
-  	font-size: 20px;
-  	overflow: hidden;
-  	padding-bottom: 50px;
-  	background: radial-gradient(at left top, rgb(250, 112, 118), rgb(84, 45, 186));
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  overflow: hidden;
+  background-image: radial-gradient(
+    at left top,
+    rgb(250, 112, 118),
+    rgb(84, 45, 186)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+#main-wrapper {
+  margin: 0 auto;
 }
 
 h1 {
-	margin: 30px auto;
-	text-align: center;
-	font-weight: 700;
-	color: white;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
+  margin: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 a {
-	color: white;
+  color: white;
 }
 
 .header {
-	position: relative;
-	color: white;
-	text-align: center;
-	margin-top: 10px;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-	margin: 0 auto;
-	padding-bottom: 50px;
-	height: 100%;
-	width: 100%;
-	position: relative;
-	overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 #quoteBox {
-	max-width: 500px;
-	min-height: 150px;
-	overflow: auto;
-	margin:  50px auto;
-	padding: 30px 50px;
-	background: white;
-	text-align: center;
-	border-radius: 10px;
-	position: relative;
-	box-shadow: 0 0 5px rgba(20, 20, 20, 0.7);
+  max-width: 500px;
+  min-height: 150px;
+  overflow: auto;
+  margin: 50px auto;
+  padding: 30px 50px;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(20, 20, 20, 0.7);
 }
 
 #twitterBtn {
-	float: left;
-	letter-spacing: 1px;
-	height: 34px;
-	width: 104px;
+  float: left;
+  letter-spacing: 1px;
+  height: 34px;
+  width: 104px;
 }
 
 #quoteBtn {
-	float: right;
-	letter-spacing: 1px;
+  float: right;
+  letter-spacing: 1px;
 }
 
 .qouteText {
-	margin: 20px auto;
-	padding: 10px;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 .author {
-	font-family: 'Crete Round', serif;
-	margin: 20px auto;
-	padding: 5px 10px;
-	text-align: right;
+  font-family: "Crete Round", serif;
+  margin: 20px auto;
+  padding: 5px 10px;
+  text-align: right;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
-

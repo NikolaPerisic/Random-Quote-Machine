@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>A Random Quote Machine</title>
 	<link href="https://fonts.googleapis.com/css?family=Crete+Round|Playfair+Display" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -10,23 +11,23 @@
 	
 </head>
 <body>
+<div id="main-wrapper">
+	<h1>Random Quote Generator</h1>
+	<div class="header">
+		Created By <a href="https://github.com/NikolaPerisic" target="_blank">NP</a>
+	</div>
 
-<h1>Random Quote Generator</h1>
-<div class="header">
-	Created By <a href="https://github.com/NikolaPerisic" target="_blank">NP</a>
-</div>
-
-<div class="container">
-	<div id="quoteBox" class="hidden">
-		<div class="qouteText">"The molecules of your body are the same molecules that make up the nebulae, that burn inside the stars themselves. We are star stuff."</div>
-		<div class="author">—  Victor Tenbaum</div>
-		<div class="quoteButtons">
-			<button class="btn btn-primary" id="twitterBtn"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
-			<button class="btn btn-primary" id="quoteBtn">New Quote</button>
+	<div class="container">
+		<div id="quoteBox" class="hidden">
+			<div class="qouteText">"The molecules of your body are the same molecules that make up the nebulae, that burn inside the stars themselves. We are star stuff."</div>
+			<div class="author">—  Victor Tenbaum</div>
+			<div class="quoteButtons">
+				<button class="btn btn-primary" id="twitterBtn"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+				<button class="btn btn-primary" id="quoteBtn">New Quote</button>
+			</div>
 		</div>
 	</div>
 </div>
-
 
 
 <script
